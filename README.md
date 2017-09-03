@@ -48,7 +48,7 @@ So you have one clean CSS file at the end and just one request.
 ### Running
 To work and compile your Sass files on the fly start:
 
-- `$ gulp watch`
+- `$ npm start`
 
 Or, to run with Browser-Sync:
 
@@ -60,5 +60,7 @@ var browserSyncOptions = {
 };
 ```
 - then run: `$ gulp watch-bs`
+
+If you add any pngs to the image folder, run `$ npm run imagemin` to minimize their size.
 
 [1] Visit [http://browsersync.io](http://browsersync.io) for more information on Browser Sync
