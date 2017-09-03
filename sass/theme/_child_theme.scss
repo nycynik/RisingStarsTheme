@@ -1,0 +1,83 @@
+
+$primary-color: #333;
+$secondary-color: #000;
+$highlight-color: #ffa232;
+
+/* styles */
+a {
+  color: $highlight-color;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: normal;
+  outline: none !important;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: none;
+  transition:all 0.35s ease-in-out;
+  -moz-transition:all 0.35s ease-in-out;
+  -webkit-transition:all 0.35s ease-in-out;
+  -o-transition:all 0.35s ease-in-out;
+  cursor: pointer;
+
+}
+
+/* footer styles */
+
+#colophon {
+  color: #fff;
+  background-color: #333;
+  background: linear-gradient(to bottom ,#5F9DA0 -20%,#2a2a34 5%,#141416 70%) no-repeat;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, .4), inset 0 1px 1px rgba(255, 255, 255, .15);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, .4), inset 0 1px 1px rgba(255, 255, 255, .15);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, .4), inset 0 1px 1px rgba(255, 255, 255, .15);
+  border: 1px solid #000;
+  padding-top: 2em;
+
+  h2 {
+    font-size: 14px;
+    color: #838891;
+    font-weight: 700;
+    line-height: 31px;
+    text-transform: uppercase;
+  }
+
+  a {
+    color: #fff;
+
+    :hover {
+      color: $highlight-color;
+    }
+  }
+
+}
+
+#footer-sidebar1 {
+
+}
+
+#footer-sidebar2 {
+
+}
+
+.footer-bottom {
+  text-align: left;
+  background-color: #000;
+  color: #999;
+  font-size: 14px;
+  height: 2em;
+  padding-top: .25em;
+  padding-left: 10em;
+
+  .site-name {
+    color: $highlight-color;
+  }
+  a {
+    color: #999;
+  }
+}

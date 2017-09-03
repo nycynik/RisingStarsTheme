@@ -15,8 +15,8 @@ var browserSyncWatchFiles = [
 // browser-sync options
 // see: https://www.browsersync.io/docs/options/
 var browserSyncOptions = {
-    proxy: "localhost/understrap/",
-    notify: false
+    proxy: "http://esportsrisingstars.dev/",
+    notify: true
 };
 
 // Defining requirements
@@ -38,7 +38,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 var del = require('del');
 var cleanCSS = require('gulp-clean-css');
-var gulpSequence = require('gulp-sequence')
+var gulpSequence = require('gulp-sequence');
 
 function swallowError(self, error) {
     console.log(error.toString())
